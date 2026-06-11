@@ -1,0 +1,91 @@
+/* Basic Page Setup Style */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+/* Main App Container */
+.app-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 24px;
+  background-color: white;
+  border-radius: 12px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+header h1 {
+  margin-bottom: 8px;
+}
+
+header p {
+  color: #555;
+}
+
+/* Sections */
+section {
+  margin-bottom: 32px;
+}
+
+section h2 {
+  margin-bottom: 16px;
+}
+
+/* Form Layout */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+/* Buttons */
+button {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2f6fed;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1f55b8;
+}
+
+/* Filter Buttons */
+.filters-section button {
+  margin-right: 8px;
+}
+
+/* Assignment List Area */
+#assignment-list {
+  padding: 16px;
+  border: 1px dashed #bbb;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
